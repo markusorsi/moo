@@ -46,8 +46,8 @@ To use MOO, you only need two SMILES representations of the molecules you want t
 ```python
 from moo import moo
 
-molecule_1 = Chem.MolFromSmiles('C1CC(=O)NC(=O)[C@@H]1N2C(=O)C3=CC=CC=C3C2=O')
-molecule_2 = Chem.MolFromSmiles('C1CC(=O)NC(=O)[C@H]1N2C(=O)C3=CC=CC=C3C2=O')
+molecule_1 = 'C1CC(=O)NC(=O)[C@@H]1N2C(=O)C3=CC=CC=C3C2=O'
+molecule_2 = 'C1CC(=O)NC(=O)[C@H]1N2C(=O)C3=CC=CC=C3C2=O'
 
 moo.SaveBestOverlapAsPDB(mol1, mol2, nConfs=10, RemoveHs=True, name1='molecule_1', name2='molecule_2')
 ```

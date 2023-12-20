@@ -44,7 +44,7 @@ pip install moo-chem
 To use MOO, you only need two SMILES representations of the molecules you want to overlap. The following example shows how to overlap (+)-Thalidomide and (-)-Thalidomide.
 
 ```python
-from moo import moo
+from moo-chem import moo
 
 molecule_1 = Chem.MolFromSmiles('C1CC(=O)NC(=O)[C@@H]1N2C(=O)C3=CC=CC=C3C2=O')
 molecule_2 = Chem.MolFromSmiles('C1CC(=O)NC(=O)[C@H]1N2C(=O)C3=CC=CC=C3C2=O')

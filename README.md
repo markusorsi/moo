@@ -1,6 +1,6 @@
 # **MOO 🐮** (Molecule Overlap Optimizer)
 
-<img src="https://img.shields.io/pypi/v/mapchiral?color=success&label=Version&style=flat-square"/> <img src="https://img.shields.io/badge/Python-3.10-blue?style=flat-square"/> <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square"/>
+<img src="https://img.shields.io/pypi/v/moo-chem?color=success&label=Version&style=flat-square"/> <img src="https://img.shields.io/badge/Python-3.10-blue?style=flat-square"/> <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square"/>
 
 ## Theory
 

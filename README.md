@@ -29,7 +29,7 @@ You will need following prerequisites:
 
 #### **Installing via pip**
 
-Alternatively, you can pip-install mapchiral on an existing Conda environment as follows:
+Alternatively, you can pip-install MOO on an existing Conda environment as follows:
 
 ```console
 conda activate my_environment
